@@ -22,6 +22,10 @@ const PlantarTreatment = () => {
                     <li>Ice</li>
                     <li>Compression</li>
                     <li>OTC Anti-Inflammatory Medication</li>
+                    <ol type = "a" id = "bullet">
+                        <Link to="/Ibuprofen"><li>Ibuprofen</li></Link>
+                        <Link to="/Naproxen"><li>Naproxen</li></Link>
+                    </ol>
                 </ul>
             </div>
             <Link to="/InsuranceDropDown">Find physicians in my area</Link>

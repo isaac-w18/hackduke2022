@@ -5,6 +5,9 @@ import PlantarFasciitis from './components/PlantarFasciitis.js';
 import RelevantPhysicians from './components/RelevantPhysicians.js';
 import PlantarTreatment from './components/PlantarTreatment.js';
 import InsuranceDropDown from './components/InsuranceDropDown';
+import Ibuprofen from './components/ibuprofen.js';
+import Naproxen from './components/Naproxen.js';
+import PhysiciansList from './components/PhysiciansList.js';
 import {
   BrowserRouter as Router,
   Routes,
@@ -34,12 +37,27 @@ function App() {
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/} 
+          <Route path="/ibuprofen" element={<Ibuprofen />} />
+
+          {/* This route is for about component 
+          with exact path "/about", in component 
+          props we passes the imported component*/} 
+          <Route path="/naproxen" element={<Naproxen />} />
+
+          {/* This route is for about component 
+          with exact path "/about", in component 
+          props we passes the imported component*/} 
           <Route path="/relevant" element={<RelevantPhysicians />} />
 
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/} 
           <Route path="/PlantarTreatment" element={<PlantarTreatment />} />
+
+          {/* This route is for about component 
+          with exact path "/about", in component 
+          props we passes the imported component*/} 
+          <Route path="/physicianslist" element={<PhysiciansList />} />
 
           <Route path="/InsuranceDropDown" element={<InsuranceDropDown />} />
           {/* If any route mismatchesx the upper 
