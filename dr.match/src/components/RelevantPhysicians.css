@@ -1,0 +1,45 @@
+#relTopMes {
+  text-align: center;
+}
+
+#vish {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#beth {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#brian {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#vishwanath {
+  text-align: center;
+}
+
+#bethA {
+  text-align: center;
+}
+
+#brianE {
+  text-align: center;
+}
