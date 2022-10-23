@@ -5,10 +5,14 @@ import '../App.css';
 const Home = () => {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <p></p>
-      <img src="../../public/drMatch.png" alt="Your go-to physician finder."></img>
+      <div>
+        <header className="App-header">
+        </header>
+      </div>
+      <div>
+        <h1>Dr. Match</h1> 
+        <img src="../../public/drMatch.png" alt="Your go-to physician finder."></img>
+      </div>
     </div>
   );
 };
