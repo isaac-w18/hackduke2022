@@ -1,4 +1,6 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
+
 const plantar = () => {
       return (
         <div>
@@ -17,6 +19,7 @@ const plantar = () => {
                 <li>Tenderness and swelling</li>
                 <li>Inflammation</li>
             </ul>
+          <Link to="/PlantarTreatment">This looks like my condition!</Link>
         </div>
       );
     };

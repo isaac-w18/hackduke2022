@@ -2,6 +2,8 @@ import './App.css';
 import Home from './components/Home.js';
 import Symptoms from './components/Symptoms.js';
 import PlantarFasciitis from './components/PlantarFasciitis.js';
+import PlantarTreatment from './components/PlantarTreatment.js';
+import InsuranceDropDown from './components/InsuranceDropDown';
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,7 +29,13 @@ function App() {
           with exact path "/about", in component 
           props we passes the imported component*/} 
           <Route path="/plantar" element={<PlantarFasciitis />} />
-        
+
+          {/* This route is for about component 
+          with exact path "/about", in component 
+          props we passes the imported component*/} 
+          <Route path="/PlantarTreatment" element={<PlantarTreatment />} />
+
+          <Route path="/InsuranceDropDown" element={<InsuranceDropDown />} />
           {/* If any route mismatchesx the upper 
           route endpoints then, redirect triggers 
           and redirects app to home component with to="/" */}
